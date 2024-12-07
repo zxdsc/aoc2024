@@ -64,7 +64,7 @@ executable aoc2024
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.17.2.1, text
+    build-depends:    base ^>=4.17.2.1, text, regex-tdfa
 
     -- Directories containing source files.
     hs-source-dirs:   app
